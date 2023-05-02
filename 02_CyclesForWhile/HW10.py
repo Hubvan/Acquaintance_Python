@@ -3,3 +3,16 @@
 #были повернуты вверх одной и той же стороной. Выведите минимальное количество монет, которые 
 #нужно перевернуть
 
+monet = int(input('Введите сколько монет: '))
+count_orel = 0
+count_reghka = 0
+for i in range(monet):
+    x = int(input('Какой стороной лежит монета: '))
+    if x == 0:
+      count_orel += 1
+    else:
+      count_reghka += 1
+if count_orel > count_reghka:
+  print(f"Переверните {count_orel} монеты")
+else:
+  print(f"Переверните {count_reghka} монеты")
