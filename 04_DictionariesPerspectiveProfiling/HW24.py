@@ -20,3 +20,23 @@ arr_count = list()
 for i in range(len(arr)):
     arr_count.append(arr[i - 2] + arr[i - 1] + arr[i])
 print(max(arr_count))
+
+# bushes = [1, 2, 3, 4, 5]
+# max_berries = 0
+# count_bush = 3
+
+# for i in range(-count_bush, len(bushes)-count_bush):
+
+#     print([bushes[i + j] for j in range(count_bush)])
+
+#     sum_berries = sum(bushes[i + j] for j in range(count_bush))
+
+#     if sum_berries > max_berries:
+#         max_berries = sum_berries
+# print(max_berries)
+
+# # list comprehenshion
+
+# print(max(sum((bushes[i], bushes[i+1], bushes[i+2]))
+#         for i in range(-2, len(bushes)-2)))
+3

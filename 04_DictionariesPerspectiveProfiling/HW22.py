@@ -11,3 +11,9 @@ k1 = set(b)
 
 lok = k & k1
 print(f'Числа встречающиеся в обоих наборах: {lok}')
+
+# nums1 = [3, 2, 1, 1, 4]
+# nums2 = [3, 10, 5, 1]
+
+# result = sorted(set(nums1).intersection(set(nums2))) # во множествах данные определенных типов сортируются автоматически
+# print(result) 
